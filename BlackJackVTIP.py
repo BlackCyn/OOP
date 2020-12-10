@@ -78,7 +78,7 @@ def take_bet(chips):
     while True:
 
         try:
-            chips.bet = int(input("Какую ставку вы хотите сделать?(всего у вас 100 фишек) "))
+            chips.bet = int(input("Какую ставку вы хотите сделать? "))
         except:
             print("Напишите число")
         else:
